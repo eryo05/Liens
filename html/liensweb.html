@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/liensweb.css">
+    <title>Activité 1</title>
+</head>
+
+<body>
+
+    <h1>Activité 1</h1>
+    <div id="container">
+    <form id="form" name="ajout">
+        <div class="pos">
+            <label for="titre">Titre :</label>
+            <input type="text" id="titre" name="usertitre">
+        </div>
+        <div class="pos">
+            <label for="url">URL :</label>
+            <input type="text" id="url" name="userurl">
+        </div>
+        <div class="pos">
+            <label for="auteur">Auteur :</label>
+            <input id="auteur" id="auteur" name="userauteur"></input>
+        </div>
+        <div class="button pos">
+            <button type="button" id="btn" onclick="remplir()" name="btn">Ajouter</button>
+        </div>
+    </form>
+
+    <form>
+        <div class="button">
+            <button type="button" id="btn2" onclick="affichage()" name="btn2">Ajouter lien</button>
+        </div>
+    </form>
+</div>
+<br>
+    <!-- Les nouveaux éléments sont ajoutés dans cette balise -->
+    <div id="contenu">
+    </div>
+
+    <script src="../js/liensweb.js"></script>
+
+    <pre>
+      
+    </pre>
+</body>
+
+</html>
